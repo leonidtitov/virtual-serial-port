@@ -1,2 +1,2 @@
 # virtual-serial-port
-Virtual serial port driver implementationVirtual serial port in C++17
+Virtual serial port driver implementation on C++17

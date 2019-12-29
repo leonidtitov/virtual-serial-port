@@ -11,7 +11,8 @@ namespace vrs {
 
     class SerialPort {
     public:
-        SerialPort(std::filesystem::path port_path);
+        SerialPort() = default;
+        explicit SerialPort(std::filesystem::path port_path);
 
         ~SerialPort() noexcept;
 

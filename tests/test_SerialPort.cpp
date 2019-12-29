@@ -8,9 +8,8 @@
 
 namespace {
 
-    TEST(SerialPortTest, Contructor
-    ) {
-    EXPECT_NO_THROW (vrs::SerialPort());
-}
+    TEST(SerialPortTest, Contructor) {
+        EXPECT_NO_THROW (vrs::SerialPort());
+    }
 
 }
